@@ -6,7 +6,7 @@ def parrot(string)
     return "Squawk!"
     puts "Squawk!"
   else
-    return string
+    return "#{string}"
     puts "#{string}"
   end
 end
