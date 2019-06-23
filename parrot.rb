@@ -2,11 +2,11 @@
 # returns the phrase
 
 def parrot()
-  if parrot(string) == nil
+  if parrot(string) == true
+    return string
+    puts "#{string}"
+  else
     return "Squawk!"
     puts "Squawk!"
-  else
-    return "#{string}"
-    puts "#{string}"
   end
 end
