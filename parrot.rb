@@ -2,7 +2,7 @@
 # returns the phrase
 
 def parrot(string)
-  if parrot() == true
+  if parrot(string) == nil
     return "Squawk!"
     puts "Squawk!"
   else
