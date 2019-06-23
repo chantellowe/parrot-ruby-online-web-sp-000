@@ -5,5 +5,8 @@ def parrot(phrase)
   if parrot(phrase) == nil
     puts "Squawk!"
     "Squawk!"
+  else
+    puts "#{string}"
+    string
   end
 end
