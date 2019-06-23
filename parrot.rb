@@ -3,6 +3,7 @@
 
 def parrot(string)
   if string == nil
+    return "Squawk!"
     puts "Squawk!"
   else
     return string
