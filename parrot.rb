@@ -3,7 +3,7 @@
 
 def parrot()
   if parrot(string) == true
-    return string
     puts "#{string}"
+    string
   end
 end
